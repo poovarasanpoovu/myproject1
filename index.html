@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Image Map</title>
+      <link rel="icon" type="imnage/x-icon" href="images/indexicon.jpg">
+      <style>
+       body
+       {
+          background-image:url('images/bgimage2.jpg');
+          background-repeat:no-repeat;
+          background-size:cover;
+          background-attachment:fixed;
+        }
+      </style>
+  </head>
+  <body>
+  <center>
+  <h2 style="font-size:30px">Image Map</h2>
+  <p ><i><b>Click on the <b style="color:orange">computer, the phone, or the cup of coffee</b> to go to a new page and read more about the topic:</b></i></p>
+  <br><br>
+  <img src="images/workplace.jpg" alt="workplace"  usemap="#workplace" >
+  <map name="workplace">
+      <area  shape="rect" coords="34,44,270,350" href="computer.html"target="_blank" title="Computer">
+      <area  shape="rect" coords="290,172,333,250" href="phone.html" target="_blank" title="Smart Phone">
+      <area  shape="circle" coords="337,300,44" href="coffee.html" target="_blank" title="Coffee Cup">
+
+  </map>
+  </center>
+
+  </body>
+</html>
